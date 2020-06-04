@@ -1,0 +1,22 @@
+{
+  "name": "@consorciodigital/buttons",
+  "description": "Components library based on vue-cli-4",
+  "author": "Buttons test cns",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "buttons.common.js",
+  "unpkg": "buttons.common.js",
+  "jsdelivr": "buttons.common.js",
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  },
+  "files": [
+    "*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1 "
+  }
+}

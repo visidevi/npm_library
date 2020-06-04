@@ -33,8 +33,8 @@ npm install --save @dscns/buttons
 ```
 import Vue from 'vue'
 import App from './App.vue'
-import '@jcarceller/components-lib/components-lib.css';
-import * as ComponentsLib from '@jcarceller/components-lib';
+import '@company_name/components-lib/components-lib.css';
+import * as ComponentsLib from '@company_name/components-lib';
 
 Vue.config.productionTip = false
 
@@ -54,6 +54,18 @@ new Vue({
     </section>
   </div>
 </template>
+
+
+```
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+   npm login --registry=https://npm.pkg.github.com --scope=@company_name
+   crea token en github
+   crear repo mismo nombre
+   npm publish
+
+```
 
 <script>
 export default {
